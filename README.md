@@ -5,4 +5,6 @@ Me complace compartir con ustedes una colección de los proyectos que he realiza
 
 En la carpeta "Corte 1" 📂 encontrarán todos los trabajos y proyectos que he desarrollado. Cada uno de ellos representa un desafío superado y una oportunidad de aprendizaje. 💡
 
+Aquí adjunto las diapositivas sobre JavaScript 🚀
+
 ¡Espero que disfruten explorándolos! ✨
