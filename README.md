@@ -1,5 +1,5 @@
 ¡Bienvenidos al repositorio de mis proyectos! 👋
-Hola a todos,
+Hola a todos, mi nombre es Lucas Cruz
 
 Me complace compartir con ustedes una colección de los proyectos que he realizado a lo largo de este semestre. 🎓
 
