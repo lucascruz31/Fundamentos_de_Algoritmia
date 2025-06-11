@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividades de Lenguaje</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Actividades de Lenguaje</h1>
+        
+        <!-- Actividad 1: Sinónimos -->
+        <section id="sinonimos">
+            <h2>Actividad 1: Selecciona los sinónimos</h2>
+            
+            <div class="question" id="sinonimo1">
+                <p>1. ¿Cuál de estas palabras es sinónimo de "alegre"?</p>
+                <div class="options">
+                    <label class="option"><input type="radio" name="sinonimo1" value="a"> Contento</label><br>
+                    <label class="option"><input type="radio" name="sinonimo1" value="b"> Triste</label><br>
+                    <label class="option"><input type="radio" name="sinonimo1" value="c"> Enojado</label><br>
+                    <label class="option"><input type="radio" name="sinonimo1" value="d"> Aburrido</label>
+                </div>
+                <div class="result" id="resultSinonimo1"></div>
+            </div>
+            
+            <div class="question" id="sinonimo2">
+                <p>2. ¿Cuál de estas palabras es sinónimo de "rápido"?</p>
+                <div class="options">
+                    <label class="option"><input type="radio" name="sinonimo2" value="a"> Lento</label><br>
+                    <label class="option"><input type="radio" name="sinonimo2" value="b"> Veloz</label><br>
+                    <label class="option"><input type="radio" name="sinonimo2" value="c"> Pesado</label><br>
+                    <label class="option"><input type="radio" name="sinonimo2" value="d"> Débil</label>
+                </div>
+                <div class="result" id="resultSinonimo2"></div>
+            </div>
+            
+            <div class="question" id="sinonimo3">
+                <p>3. ¿Cuál de estas palabras es sinónimo de "inteligente"?</p>
+                <div class="options">
+                    <label class="option"><input type="radio" name="sinonimo3" value="a"> Listo</label><br>
+                    <label class="option"><input type="radio" name="sinonimo3" value="b"> Tonto</label><br>
+                    <label class="option"><input type="radio" name="sinonimo3" value="c"> Lento</label><br>
+                    <label class="option"><input type="radio" name="sinonimo3" value="d"> Grosero</label>
+                </div>
+                <div class="result" id="resultSinonimo3"></div>
+            </div>
+            
+            <button onclick="checkSinonimos()">Verificar respuestas de sinónimos</button>
+        </section>
+        
+        <!-- Actividad 2: Antónimos -->
+        <section id="antonimos">
+            <h2>Actividad 2: Selecciona los antónimos</h2>
+            
+            <div class="question" id="antonimo1">
+                <p>1. ¿Cuál de estas palabras es antónimo de "grande"?</p>
+                <div class="options">
+                    <label class="option"><input type="radio" name="antonimo1" value="a"> Enorme</label><br>
+                    <label class="option"><input type="radio" name="antonimo1" value="b"> Pequeño</label><br>
+                    <label class="option"><input type="radio" name="antonimo1" value="c"> Gigante</label><br>
+                    <label class="option"><input type="radio" name="antonimo1" value="d"> Mediano</label>
+                </div>
+                <div class="result" id="resultAntonimo1"></div>
+            </div>
+            
+            <div class="question" id="antonimo2">
+                <p>2. ¿Cuál de estas palabras es antónimo de "amor"?</p>
+                <div class="options">
+                    <label class="option"><input type="radio" name="antonimo2" value="a"> Cariño</label><br>
+                    <label class="option"><input type="radio" name="antonimo2" value="b"> Odio</label><br>
+                    <label class="option"><input type="radio" name="antonimo2" value="c"> Afecto</label><br>
+                    <label class="option"><input type="radio" name="antonimo2" value="d"> Pasión</label>
+                </div>
+                <div class="result" id="resultAntonimo2"></div>
+            </div>
+            
+            <div class="question" id="antonimo3">
+                <p>3. ¿Cuál de estas palabras es antónimo de "luz"?</p>
+                <div class="options">
+                    <label class="option"><input type="radio" name="antonimo3" value="a"> Brillante</label><br>
+                    <label class="option"><input type="radio" name="antonimo3" value="b"> Oscuridad</label><br>
+                    <label class="option"><input type="radio" name="antonimo3" value="c"> Resplandor</label><br>
+                    <label class="option"><input type="radio" name="antonimo3" value="d"> Claridad</label>
+                </div>
+                <div class="result" id="resultAntonimo3"></div>
+            </div>
+            
+            <button onclick="checkAntonimos()">Verificar respuestas de antónimos</button>
+        </section>
+        
+        <!-- Actividad 3: Medios de comunicación -->
+        <section id="medios">
+            <h2>Actividad 3: Menciona 3 medios de comunicación masivos</h2>
+            <p>Escribe tres medios de comunicación masivos diferentes:</p>
+            <p><span style="color:red">¡Ojo con la ortografía!</span></p>
+            <input type="text" id="mediaInput" placeholder="Escribe un medio de comunicación y presiona Enter">
+            <ul id="mediaList"></ul>
+            <button onclick="checkMedios()">Verificar medios de comunicación</button>
+            <div class="result" id="resultMedios"></div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

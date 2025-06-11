@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Untitled-1</title>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+    <p>Por favor, complete el siguiente formulario para registrarse.</p>
+    <p id="rojo">Los campos marcados con * son obligatorios.</p>
+    <!--Usuario-->
+    <form action="procesar.php" method="post"> 
+    <label for="Usuario">Usuario:</label>
+    <imput type="text" id="Usuario" name="Usuario" placeholder="tu nombre" required><br>
+    <label for="password">Contraseña:</label>
+    <input type="password" id="password" name="password" placeholder="Contraseña" required><br>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Email" required><br>
+    <label for="sexo">Sexo</label>
+        <select id="sexo" name="sexo">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+            <option value="otro">Otro</option>
+        </select><br>
+    <label for="fecha">Fecha de nacimiento</label>
+    <input type="date" id="fecha" name="fecha" required><br>
+    <label for="telefono">Teléfono</label>
+    <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required><br>
+    <label for="direccion">Dirección</label>
+    <input type="text" id="direccion" name="direccion" placeholder="Dirección" required><br>
+    <label>Ciudad:</label>
+    <label for="Bogota">Bogotá</label>
+    <input type="radio" id="Bogota" name="ciudad" value="Bogota">
+    <label for="Medellin">Medellín</label>
+    <input type="radio" id="Medellin" name="ciudad" value="Medellin">
+    <label for="Cali">Cali</label>
+    <input type="radio" id="Cali" name="ciudad" value="Cali">
+    <label for="Córdoba">Córdoba</label>
+    <input type="radio" id="Córdoba" name="ciudad" value="Córdoba">
+    <label for="Otros">Otros</label>
+    <input type="radio" id="Otros" name="ciudad" value="Otros"><br>
+    <label for="terminos">Acepto los términos y condiciones</label>
+    <input type="checkbox" id="terminos" name="terminos" required><br>
+    <imput type="submit" value="Enviar"><br>
+    <imput type="reset" value="Limpiar"><br>
+    <imput type="button" value="Cancelar" onclick="window.location.href='index.html'"><br>
+    <imput type="button" value="Modificar" onclick="window.location.href='modificar.html'"><br>
+    <imput type="button" value="Eliminar" onclick="window.location.href='eliminar.html'">
+</body>
+</html>
